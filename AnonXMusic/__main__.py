@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("AnonXMusic").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES"
+        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @ll_THUNDERXD_ll JOIN @FAKE_SMILE_76 , @Friends_chatting_Group_Sigma FOR ANY ISSUES"
     )
     await idle()
     await app.stop()
