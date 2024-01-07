@@ -1,4 +1,4 @@
-from TeamXBharat import app 
+from AnonXMusic import app 
 import asyncio
 import random
 from pyrogram import Client, filters
@@ -137,7 +137,7 @@ TAGMES = [ " 𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱 ",
            " 𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰 ",
            ]
 
-@app.on_message(filters.command(["tagmsg", "msg"], prefixes=["/", "@", "#", "champu", "Champu"]))
+@app.on_message(filters.command(["tagmsg", "msg"], prefixes=["/", "@", "#", "utag", "Thunder"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
           
