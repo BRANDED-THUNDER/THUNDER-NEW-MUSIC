@@ -1,5 +1,5 @@
 import asyncio
-from TeamXBharat import app
+from AnonXMusic import app
 from pyrogram import filters
 
 
@@ -59,7 +59,7 @@ async def cancelcmd(_, message):
             SPAM_CHATS.remove(chat_id)
         except Exception:
             pass   
-        return await message.reply_text("**ᴛᴀɢ ᴀʟʟ sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴏᴘᴘᴇᴅ!**")     
+        return await message.reply_text("**ᴛʜᴜɴᴅᴇʀ ᴛᴀɢ ᴀʟʟ sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴏᴘᴘᴇᴅ!**")     
                                      
     else :
         await message.reply_text("**ɴᴏ ᴘʀᴏᴄᴇss ᴏɴɢᴏɪɴɢ!**")  
