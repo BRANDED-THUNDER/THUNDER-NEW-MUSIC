@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "DORA_MUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Thunder_X_Musicbot")
 
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "DORA_MUSICBOT")
