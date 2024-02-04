@@ -19,10 +19,6 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["owner"],
-                callback_data=f"owner {videoid}|{user_id}",
-            ),
-            InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
@@ -71,6 +67,11 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+          [
+            InlineKeyboardButton(
+                text="ᴏᴡɴᴇʀ", url="https://t.me/@lll_THUNDERXD_lll",
+            ),
+        
       
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
