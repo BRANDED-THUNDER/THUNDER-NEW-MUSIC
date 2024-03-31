@@ -30,7 +30,7 @@ BASE_URL = 'http://www.youtubeinmp3.com/fetch/?format=JSON&video='
 SUCCESS = 'Success'
 FAIL = 'Fail'
 ERROR = 'Error in pushing song.'
-WELCOME_MSG = 'To start using GaanaBot send the name of the song you want to download. To get lyrics send a message in the format \'Lyrics <song_name> - <artist_name>\''
+WELCOME_MSG = 'To start using Thunder music send the name of the song you want to download. To get lyrics send a message in the format \'Lyrics <song_name> - <artist_name>\''
 ONE_MB = 1000000
 SONG_SENT_MESSAGE = 'Download is complete. Song is being sent to you. Please wait. To save the song click on it and choose Save to Music option.'
 
